@@ -9,14 +9,14 @@
                 }
 
                 .text {
-                    width: 12ch; /* for the text */
+                    width: 12ch;
                     animation: typing 1.5s steps(9), blink .4s step-end infinite alternate;
                     white-space: nowrap;
                     overflow: hidden;
                     border-right: 4px solid;
-                    font-family: 'Courier New', monospace; /* font */
-                    font-size: 2em; /* Reduced font size */
-                    background: linear-gradient(90deg, rgba(0, 241, 220, 1) 0%, rgba(86, 115, 241, 1) 44%, rgba(103, 68, 241, 1) 54%, rgba(254, 0, 255, 1) 100%);
+                    font-family: 'Courier New', monospace; /* font here */
+                    font-size: 2em; /* font size */
+                    background: linear-gradient(90deg, #228B22, #7CFC00, #00FF00, #8B4513); /* Forest Green, Grass, Lime, Earth */
                     -webkit-background-clip: text;
                     -webkit-text-fill-color: transparent;
                 }
